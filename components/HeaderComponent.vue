@@ -25,7 +25,7 @@
                     <ChevronRight class="w-4 h-4" />
                 </Button>
                 <Button class="button" variant="outline" size="icon">
-                    <ChevronRight class="w-4 h-4" />
+                    <ChevronRight class="icon w-4 h-4"/>
                 </Button>
             </div>
         </header>
@@ -33,10 +33,13 @@
 </template>
 
 <script>
-
+import { ChevronRight } from 'lucide-vue-next'
 </script>
 
 <style scoped>
+.icon{
+    color:red
+}
 header{
     height: 100px;
     display: flex;
