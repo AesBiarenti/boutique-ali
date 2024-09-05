@@ -5,11 +5,11 @@
         <header>
             <div class="logo"></div>
             <nav>
-                <NuxtLink>Home</NuxtLink>
-                <NuxtLink>Shop</NuxtLink>
-                <NuxtLink>Events</NuxtLink>
-                <NuxtLink>About Us</NuxtLink>
-                <NuxtLink>Contact Us</NuxtLink>
+                <NuxtLink to="/">Home</NuxtLink>
+                <NuxtLink to="/">Shop</NuxtLink>
+                <NuxtLink to="/">Events</NuxtLink>
+                <NuxtLink to="/">About Us</NuxtLink>
+                <NuxtLink to="/">Contact Us</NuxtLink>
             </nav>
             <div class="relative w-full max-w-sm items-center">
                 <Input id="search" type="text" placeholder="Search..." class="pl-10" />
