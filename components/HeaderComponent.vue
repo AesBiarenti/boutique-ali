@@ -4,7 +4,7 @@
       <div class="logo"></div>
       <nav>
         <NuxtLink to="/">Home</NuxtLink>
-        <NuxtLink to="/">Shop</NuxtLink>
+        <NuxtLink to="/shop">Shop</NuxtLink>
         <NuxtLink to="/">Events</NuxtLink>
         <NuxtLink to="/about">About Us</NuxtLink>
         <NuxtLink to="/">Contact Us</NuxtLink>
