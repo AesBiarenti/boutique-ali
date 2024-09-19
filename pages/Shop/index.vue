@@ -69,8 +69,8 @@
 </template>
 
 <style scoped>
-.shoppage{
-    display: flex;
+.shoppage {
+  display: flex;
 }
 aside {
   display: flex;
@@ -91,14 +91,42 @@ h1 {
 .checkboxes {
   margin: 10px;
 }
-.products{
-    width: calc(100vw - 300px);
-    height: calc(100vh - 100px);
+.products {
+  width: calc(100vw - 300px);
+  height: calc(100vh - 100px);
 }
 .product {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 120px;
+}
+.resim1 {
+  background-color: rgb(243, 243, 243);
+  height: 400px;
+  width: 25vw;
+  margin: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative; /* Added to position the button relative to this container */
+}
+
+.favorite-button {
+  position: absolute;
+  top: 10px; /* Adjust this value to change the vertical position */
+  right: 10px; /* Adjust this value to change the horizontal position */
+  z-index: 10; /* Ensures the button is on top of the image */
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.line {
+  text-decoration: line-through;
 }
 </style>
